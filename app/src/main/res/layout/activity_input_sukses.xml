@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_main"
+            android:orientation="vertical"
+            android:paddingBottom="80dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:contentDescription="logo"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="60sp"
+                    android:src="@drawable/logopdi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1.3"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nomor_tps"
+                    android:fontFamily="@font/latoregular"
+                    android:textColor="#ffb1bb"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/no_tps_top"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latobold"
+                    android:textColor="#ffb1bb"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/latobold"
+                    android:text="@string/title_sukses"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latoregular"
+                    android:text="@string/nama_saksi"
+                    android:textColor="#ffb1bb"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/nama_saksi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latobold"
+                    android:textColor="#ffb1bb"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow_selector"
+                android:elevation="2dp"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_thanks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:layout_marginTop="20dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:lineSpacingMultiplier="1.3"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/latobold"
+                        android:text="@string/sukses_thanks"
+                        android:textColor="#a70033"
+                        android:textSize="23sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnKembaliInformasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_text"
+                android:textStyle="bold"
+                android:background="@drawable/btn_main"
+                android:textColor="#fbe5ec"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/btn_kembali_informasi"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bantuan"
+                    android:fontFamily="@font/latoregular"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/textColorFooter" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bantuan_tap"
+                    android:fontFamily="@font/latoregular"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/textColorFooterBold"
+                    android:layout_marginLeft="3dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="logout"
+                    android:layout_alignParentBottom="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/topline_footer"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8e8e8e"
+                android:textSize="@dimen/footer_text"
+                android:lineSpacingMultiplier="1.3"
+                android:gravity="center"
+                android:text="@string/copyright"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

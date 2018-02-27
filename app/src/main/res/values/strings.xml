@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MERU</string>
+    <string name="logo_dsc">logo</string>
+    <string name="no_network">Anda tidak terhubung dengan internet</string>
+
+    <string name="informasi_breadcrumb">Informasi</string>
+    <string name="inputc1_breadcrumb">Input Suara</string>
+    <string name="inputc2_breadcrumb">Input Gugatan</string>
+    <string name="hasilc1_breadcrumb">Hasil Input Suara</string>
+    <string name="hasilc2_breadcrumb">Hasil Input Gugatan</string>
+    <string name="verifikasi_breadcrumb">Verifikasi Input</string>
+    <string name="bantuan_breadcrumb">Bantuan</string>
+
+    <string name="titik_dua">:</string>
+    <string name="panah"> > </string>
+    <string name="btn_inputdata">Input Hasil Suara</string>
+    <string name="btn_inputdatac2">Input Gugatan</string>
+    <string name="btn_lihatdata">Lihat Suara yang Telah Diinput</string>
+    <string name="btn_lihatdatac2">Lihat Gugatan yang Telah Diinput</string>
+    <string name="btn_inputhasil">Ya, Benar</string>
+    <string name="btn_kembali">Tidak, Kembali Mengisi</string>
+    <string name="btn_kembali_informasi">Kembali ke Informasi</string>
+
+    <string name="nomor_tps">Nomor TPS :</string>
+
+    <string name="login_dsc">Masukan username dan password untuk menuju halaman utama</string>
+    <string name="login">Login</string>
+    <string name="bantuan">Membutuhkan bantuan?</string>
+    <string name="bantuan_tap">Tap Disini</string>
+    <string name="masuk">Masuk</string>
+
+    <string name="title_main">Real Count Application</string>
+    <string name="nama_saksi">Nama Saksi:</string>
+    <string name="informasi">Informasi Umum Saksi :</string>
+    <string name="label_status">Status</string>
+    <string name="label_notps">Nomor TPS</string>
+    <string name="label_kab">Kabupaten  / Kota</string>
+    <string name="label_kec">Kecamatan</string>
+    <string name="label_kel">Kelurahan / Desa</string>
+    <string name="label_ban">Banjar</string>
+    <string name="label_alamat">Alamat TPS</string>
+    <string name="label_jumdpt">Jumlah DPT</string>
+    <string name="label_statusdata">Status Data</string>
+
+    <string name="title_input">Form Input Data Hasil</string>
+    <string name="jumlah_dpt">Jumlah DPT</string>
+    <string name="jumlah_suara">Jumlah Seluruh Suara</string>
+    <string name="suara_sah">Suara Sah</string>
+    <string name="suara_tidak_sah">Suara Tidak Sah</string>
+    <string name="kandidat_1">Kandidat 1 (KOSTER - ACE)</string>
+    <string name="kandidat_2">Kandidat 2 (MANTRA - KERTA)</string>
+
+    <string name="title_verifikasi">Verifikasi Input Data Hasil</string>
+    <string name="verifikasi_dsc">Pastikan Data yang terinput sudah sesuai dengan data yang sebenarnya. \n Apakah data diatas sudah terisi dengan benar?</string>
+
+    <string name="title_hasil_data">Hasil Input Data Suara</string>
+
+    <string name="title_sukses">Data Suara Telah Terkirim</string>
+    <string name="sukses_thanks">Terima kasih atas partisipasi Anda dalam pengiriman data yang benar.</string>
+    <string name="sukses_dsc">Data yang Anda input telah terkirim ke server pusat dan segera diproses. Pastikan data yang Anda kirim sudah sesuai dengan data yang sebenarnya.</string>
+
+    <string name="title_inputc2">Form Input Penggugatan</string>
+    <string name="label_gugat">Gugatan</string>
+    <string name="password">Password</string>
+    <string name="informasi_tps">Informasi TPS</string>
+    <string name="verifikasi_input_gugatan">Verifikasi Input Gugatan</string>
+    <string name="gugatan">Gugatan</string>
+    <string name="hasil_input_data_gugatan">Hasil Input Data Gugatan</string>
+    <string name="copyright">Copyright 2018. MERU - Mobile Electronic Gubernur. All Right Reserved</string>
+    <string name="title_bantuan">Bantuan</string>
+    <string name="help_teks">Untuk mendapatkan akses atau ingin mempunyai aplikasi realcount seperti karya kami, bisa menghubungi kontak diatas atau dibawah berikut</string>
+    <string name="telpon">Telpon</string>
+    <string name="sms">SMS</string>
+    <string name="whatsapp">Whatsapp</string>
+</resources>

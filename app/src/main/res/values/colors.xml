@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textColorMain">#231d1e</color>
+    <color name="textColorFooter">#b12742</color>
+    <color name="textColorFooterBold">#bf3037</color>
+
+    <color name="textHint">#e697a3</color>
+    <color name="breadcrumb_mati">#ff586d</color>
+
+
+</resources>

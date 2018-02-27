@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_main"
+            android:orientation="vertical"
+            android:paddingBottom="80dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:contentDescription="@string/logo_dsc"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="60sp"
+                    android:src="@drawable/logopdi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1.3"
+                    android:gravity="end"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nomor_tps"
+                    android:fontFamily="@font/latoregular"
+                    android:textColor="#ffb1bb"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/no_tps_top"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="end"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latobold"
+                    android:textColor="#ffb1bb"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <ImageView
+                    android:contentDescription="@string/logo_dsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/bannerpaslon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latoregular"
+                    android:text="@string/nama_saksi"
+                    android:textColor="#ffb1bb"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/nama_saksi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/latobold"
+                    android:textColor="#ffb1bb"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow_selector"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="3dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/informasi_tps"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/title_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_status"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:text="Online"
+                        android:textColor="#17974c"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_tps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_notps"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/no_tps"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_kabupaten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_kab"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/kabupaten"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="right"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_kecamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_kec"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/kecamtan"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_kelurahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_kel"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/kelurahan"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_banjar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_ban"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/banjar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_alamat"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/alamat"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_jumdpt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/textline"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_jumdpt"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/jumlah_dpt"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_statusdata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/label_statusdata"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:fontFamily="@font/latoregular"
+                        android:text="@string/titik_dua"
+                        android:textColor="@color/textColorMain"
+                        android:textSize="@dimen/main_text" />
+
+                    <TextView
+                        android:id="@+id/statusdata"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:fontFamily="@font/latobold"
+                        android:gravity="end"
+                        android:textColor="#a70033"
+                        android:textSize="@dimen/main_text"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInputSuara"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_text"
+                android:background="@drawable/btn_main"
+                android:textColor="#fbe5ec"
+                android:fontFamily="@font/latobold"
+                android:text="@string/btn_inputdata"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnLihatDataSuara"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_text"
+                android:textStyle="normal"
+                android:background="@drawable/btn_main2"
+                android:textColor="#bf3037"
+                android:fontFamily="@font/latobold"
+                android:text="@string/btn_lihatdata"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnInputGugatan"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_text"
+                android:background="@drawable/btn_main"
+                android:textColor="#fbe5ec"
+                android:fontFamily="@font/latobold"
+                android:text="@string/btn_inputdatac2"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnLihatDataGugatan"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_text"
+                android:textStyle="normal"
+                android:background="@drawable/btn_main2"
+                android:textColor="#bf3037"
+                android:fontFamily="@font/latobold"
+                android:text="@string/btn_lihatdatac2"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bantuan"
+                    android:fontFamily="@font/latoregular"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/textColorFooter" />
+
+                <TextView
+                    android:id="@+id/tv_bantuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bantuan_tap"
+                    android:fontFamily="@font/latoregular"
+                    android:textSize="@dimen/footer_text"
+                    android:textColor="@color/textColorFooterBold"
+                    android:layout_marginLeft="3dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_login"
+                    android:text="logout"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_alignParentBottom="true"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/topline_footer"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#8e8e8e"
+                android:textSize="@dimen/footer_text"
+                android:lineSpacingMultiplier="1.3"
+                android:gravity="center"
+                android:text="@string/copyright"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

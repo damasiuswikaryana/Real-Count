@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="main_text">18sp</dimen>
+    <dimen name="footer_text">15sp</dimen>
+    <dimen name="btn_text">18sp</dimen>
+    <dimen name="breadcrumb_text">15sp</dimen>
+    <dimen name="title_text">25sp</dimen>
+</resources>
