@@ -50,7 +50,7 @@ public class HasilDataGugatan extends AppCompatActivity {
 
         initComponents();
         getInputGugatan();
-        logout();
+//        logout();
     }
 
     private void initComponents() {

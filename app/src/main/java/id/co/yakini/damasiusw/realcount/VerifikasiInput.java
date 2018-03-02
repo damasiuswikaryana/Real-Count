@@ -63,7 +63,7 @@ public class VerifikasiInput extends AppCompatActivity {
         mApiService = UtilsApi.getAPIService(); // meng-init yang ada di package apihelper
         sharedPrefManager = new SharedPrefManager(this);
         initComponents();
-        logout();
+//        logout();
     }
 
     private void initComponents() {

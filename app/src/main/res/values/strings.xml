@@ -72,4 +72,7 @@
     <string name="telpon">Telpon</string>
     <string name="sms">SMS</string>
     <string name="whatsapp">Whatsapp</string>
+    <string name="nama_pak_caleg">Made Mudarta, S.E.</string>
+    <string name="tlp_pak_caleg">08123 99 55 998</string>
+    <string name="alamat_pak_caleg">Jalan Gandaria 1 No. 8, Dangin Puri Kangin. Denpasar Utara, Kota Denpasar</string>
 </resources>

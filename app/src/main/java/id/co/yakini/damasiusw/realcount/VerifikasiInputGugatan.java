@@ -56,7 +56,7 @@ public class VerifikasiInputGugatan extends AppCompatActivity {
         sharedPrefManager = new SharedPrefManager(this);
 
         initComponents();
-        logout();
+//        logout();
     }
 
     private void initComponents() {

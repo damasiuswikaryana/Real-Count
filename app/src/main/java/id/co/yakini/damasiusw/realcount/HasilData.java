@@ -59,7 +59,7 @@ public class HasilData extends AppCompatActivity {
 
         initComponents();
         getInputSuara();
-        logout();
+//        logout();
     }
 
     private void initComponents() {

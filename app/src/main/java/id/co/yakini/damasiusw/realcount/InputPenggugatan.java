@@ -26,6 +26,7 @@ public class InputPenggugatan extends AppCompatActivity {
 
     @BindView(R.id.ipt_gugatan) EditText ipt_gugatan;
     @BindView(R.id.btnInput) Button btnInput;
+    @BindView(R.id.btnKembaliInformasi) Button btnKembaliInformasi;
 
     ProgressDialog loading;
     Context mContext;
@@ -40,7 +41,7 @@ public class InputPenggugatan extends AppCompatActivity {
         sharedPrefManager = new SharedPrefManager(this);
 
         initComponents();
-        logout();
+//        logout();
     }
 
     private void initComponents() {
@@ -57,6 +58,14 @@ public class InputPenggugatan extends AppCompatActivity {
             public void onClick(View v) {
                 loading = ProgressDialog.show(mContext, null, "Harap Tunggu...", true, false);
                 requestVerifikasi();
+            }
+        });
+        btnKembaliInformasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(InputPenggugatan.this, MainActivity.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+                finish();
             }
         });
         bc_informasi.setOnClickListener(new View.OnClickListener() {

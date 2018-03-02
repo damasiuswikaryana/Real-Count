@@ -241,7 +241,6 @@ public class MainActivity extends AppCompatActivity {
     }
     //LOGOUT
     private void logout() {
-        ButterKnife.bind(this);
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
